@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: sans-serif;
+    background-color: cornflowerblue;
+    color: white;
+}
+
+#clock {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: 60vh;
+    min-width: 400px;
+}
+
+#control-time-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+#control-time-wrap .control-time{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.btn-wrap {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 150px;
+}
+
+.btn-wrap div:first-child,
+.btn-wrap div:last-child {
+    padding: 10px;
+    width: 1.5rem;
+    text-align: center;
+}
+
+#timer-label {
+    font-size: 3rem;
+}
+
+#time-left {
+    font-size: 5rem;
+}
+
+#control-btns {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80%;
+}
+
+.button {
+    width: 100px;
+    height: 45px;
+    border: solid thin white;
+    text-transform: uppercase;
+    background: transparent;
+    color: white;
+}
+.button:hover {
+    background: white;
+    color: cornflowerblue;
+}
+.button:focus {
+    outline: none;
+}
